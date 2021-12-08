@@ -18,7 +18,7 @@ echo " "
 
 # Check if you are on Kali Linux
 
-if [ "$(cat /etc/debian_version)" = "kali-rolling" ]
+if [ "$(cat /etc/debian_version)" != "" ]
 	then
 
 # Check if you are root
